@@ -17,25 +17,25 @@ In order to create some sample messages please check out the following module:
 ## Running The Consumers
 * Go to project directory and start the virtual machines by running **vagrant up**
 
-```aidl
+```shell
 $ vagrant up
 ```
 
 * Connect `app` machine via ssh.
 
-```aidl
+```shell
 $ vagrant ssh app
 ```
 
 * Create some sample messages.
 
-```aidl
+```shell
 $ ./create-sample-messages/run.sh
 ```
 
 The process would be finished successfully after you see the following output.
 
-```aidl
+```shell
 > create-sample-messages@1.0.0 start
 > node src/create-sample-messages.js
 
@@ -45,13 +45,13 @@ Done!
 
 You can run any consumers by running `run.sh` under the example consumer implementation directories.
 
-```aidl
+```shell
 ./<consumer-example>/run.sh
 ```
 
 **Example:**
 
-```aidl
+```shell
 ./simple-consumer/run.sh
 ```
 
