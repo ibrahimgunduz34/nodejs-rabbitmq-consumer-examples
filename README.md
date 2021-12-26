@@ -14,7 +14,7 @@ In order to create some sample messages please check out the following module:
 * [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 * Free memory space >= 1024 GB
 
-## Running The Consumers
+## How To Run The Consumers
 * Go to project directory and start the virtual machines by running **vagrant up**
 
 ```shell
@@ -56,3 +56,8 @@ You can run any consumers by running `run.sh` under the example consumer impleme
 ```
 
 The consumer implementations will block the terminal unless it's broken by **CTRL+C**.
+
+## How To Access RabbitMQ Console
+
+* Open your favorite browser and visit [http://192.168.56.10:15672/](http://192.168.56.10:15672/)
+* You can login to the console with **username:** guest and **password:** guest
