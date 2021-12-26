@@ -5,15 +5,15 @@ It consumes the messages from the rabbitmq instance through multiple child proce
 ## Build
 Run the following command to start building docker image
 
-```aidl
-./build.sh
+```shell
+$ ./build.sh
 ```
 
 ## Run
 Run the following script to consume the messages from the rabbitmq instance.
 
-```aidl
-./run.sh
+```shell
+$ ./run.sh
 ```
 
 # How To Check

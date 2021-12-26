@@ -5,15 +5,15 @@ The implementation allows consuming messages in the rabbbitmq instance in a simp
 ## Build
 Run the following command to start building docker image
 
-```aidl
-./build.sh
+```shell
+$ ./build.sh
 ```
 
 ## Run
 Run the following script to consume the messages from the rabbitmq instance.
 
-```aidl
-./run.sh
+```shell
+$ ./run.sh
 ```
 
 The process will block the terminal until breaking it by **CTRL+C**.
