@@ -1,0 +1,13 @@
+{
+  "name": "create-sample-messages",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/create-sample-messages.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
